@@ -58,10 +58,10 @@ The plugin ships with the official [Figma MCP server](https://github.com/figma/m
 **Claude Code**
 
 ```
-/plugin install store-screenshot-agent --marketplace OWNER/store-screenshot-agent
+/plugin install store-screenshot-agent --marketplace MertVkt/store-screenshot-agent
 ```
 
-On older versions: `/plugin marketplace add OWNER/store-screenshot-agent`, then `/plugin install store-screenshot-agent`.
+On older versions: `/plugin marketplace add MertVkt/store-screenshot-agent`, then `/plugin install store-screenshot-agent`.
 
 **Claude Desktop**
 
