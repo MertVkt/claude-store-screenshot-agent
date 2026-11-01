@@ -1,0 +1,11 @@
+{
+  "name": "store-screenshot-agent",
+  "owner": { "name": "Mert Vakitsayan" },
+  "plugins": [
+    {
+      "name": "store-screenshot-agent",
+      "source": "./",
+      "description": "Design, QC, build in Figma, localize and export App Store / Google Play screenshot sets."
+    }
+  ]
+}

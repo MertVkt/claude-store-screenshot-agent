@@ -1,0 +1,8 @@
+{
+  "name": "store-screenshot-agent",
+  "version": "1.0.0",
+  "description": "AI agent for App Store / Google Play screenshot sets: brand tokens, preview and automatic QC, editable native Figma layers, localization through Figma, export and store validation.",
+  "author": { "name": "Mert Vakitsayan" },
+  "license": "MIT",
+  "keywords": ["app-store", "google-play", "screenshots", "figma", "design-tokens", "localization", "aso"]
+}

@@ -1,0 +1,196 @@
+{
+  "app": "Demo Photo",
+  "code": "DMO",
+  "set": "SS01",
+  "canvas": "iphone-6.9",
+  "panorama": false,
+  "brand": "../_brand/DMO.tokens.json",
+  "locales": [
+    "en-US",
+    "tr"
+  ],
+  "baseLocale": "en-US",
+  "background": {
+    "type": "linear",
+    "angle": 165,
+    "stops": [
+      "{color.palette.neutral.15}",
+      "{color.palette.neutral.5}"
+    ]
+  },
+  "shots": [
+    {
+      "id": "01",
+      "keyword": "FixAnyPhoto",
+      "layers": [
+        {
+          "id": "glow",
+          "type": "shape",
+          "shape": "ellipse",
+          "x": 260,
+          "y": 1100,
+          "w": 800,
+          "h": 800,
+          "fill": "#FF5A3655",
+          "blur": 400
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "role": "headline",
+          "textStyle": "headline",
+          "x": 110,
+          "y": 230,
+          "w": 1100,
+          "maxLines": 2,
+          "text": {
+            "en-US": "Fix *any* photo\nin one tap",
+            "tr": "Her fotoğrafı\n*tek dokunuşla* düzelt"
+          }
+        },
+        {
+          "id": "sub",
+          "type": "text",
+          "textStyle": "sub",
+          "color": "muted",
+          "x": 110,
+          "y": 530,
+          "w": 1100,
+          "maxLines": 2,
+          "text": {
+            "en-US": "AI touch-ups that keep you looking like you.",
+            "tr": "Seni sen gibi gösteren yapay zekâ rötuşu."
+          }
+        },
+        {
+          "id": "phone",
+          "type": "device",
+          "model": "iphone",
+          "x": 160,
+          "y": 800,
+          "w": 1000,
+          "screen": {
+            "en-US": "Asset/screens/en-US/01.png",
+            "tr": "Asset/screens/tr/01.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "keyword": "PhotosStayYours",
+      "background": {
+        "type": "solid",
+        "color": "bg"
+      },
+      "layers": [
+        {
+          "id": "card",
+          "type": "shape",
+          "x": 90,
+          "y": 260,
+          "w": 1140,
+          "h": 900,
+          "radius": 48,
+          "fill": "surface"
+        },
+        {
+          "id": "lock",
+          "type": "icon",
+          "name": "shield-check",
+          "size": 200,
+          "color": "accent",
+          "x": 560,
+          "y": 360
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "role": "headline",
+          "textStyle": "headline",
+          "align": "center",
+          "x": 120,
+          "y": 620,
+          "w": 1080,
+          "maxLines": 2,
+          "text": {
+            "en-US": "Your photos\nstay *yours*",
+            "tr": "Fotoğrafların\n*sende* kalır"
+          }
+        },
+        {
+          "id": "pill",
+          "type": "badge",
+          "textStyle": "badge",
+          "anchor": "center",
+          "x": 660,
+          "y": 960,
+          "fill": "accent",
+          "color": "onAccent",
+          "text": {
+            "en-US": "On-device AI",
+            "tr": "Cihazda yapay zekâ"
+          }
+        },
+        {
+          "id": "phone",
+          "type": "device",
+          "model": "iphone",
+          "x": 230,
+          "y": 1300,
+          "w": 860,
+          "rotate": -4,
+          "screen": {
+            "en-US": "Asset/screens/en-US/02.png",
+            "tr": "Asset/screens/tr/02.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "keyword": "PickYourLook",
+      "background": {
+        "type": "image",
+        "src": "Asset/bg/03.jpg"
+      },
+      "layers": [
+        {
+          "id": "sun",
+          "type": "image",
+          "src": "Asset/objects/sun.png",
+          "x": 900,
+          "y": 120,
+          "w": 360,
+          "opacity": 0.9
+        },
+        {
+          "id": "headline",
+          "type": "text",
+          "role": "headline",
+          "textStyle": "headline",
+          "x": 110,
+          "y": 230,
+          "w": 1000,
+          "maxLines": 2,
+          "text": {
+            "en-US": "Pick your\n*look*",
+            "tr": "Tarzını\n*seç*"
+          }
+        },
+        {
+          "id": "phone",
+          "type": "device",
+          "model": "iphone",
+          "x": 160,
+          "y": 640,
+          "w": 1000,
+          "screen": {
+            "en-US": "Asset/screens/en-US/03.png",
+            "tr": "Asset/screens/tr/03.png"
+          }
+        }
+      ]
+    }
+  ]
+}

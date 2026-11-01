@@ -1,0 +1,10 @@
+{
+  "name": "app-store-screenshots-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Setup: npm install && npx playwright install chromium  (color.js and Lucide ship under vendor/)",
+  "dependencies": {
+    "playwright": "1.56.0",
+    "style-dictionary": "5.6.0"
+  }
+}
