@@ -65,7 +65,7 @@ On older versions: `/plugin marketplace add MertVkt/claude-store-screenshot-agen
 
 **Claude Desktop**
 
-Download `store-screenshot-agent.plugin` from the [latest release](../../releases/latest), drag it into a chat and click install.
+Download [`store-screenshot-agent.plugin`](https://github.com/MertVkt/claude-store-screenshot-agent/raw/main/dist/store-screenshot-agent.plugin), drag it into a chat and click install.
 
 Then tell Claude: **"set up the screenshot plugin"**. It installs the tools it needs once (a few minutes).
 
